@@ -1,0 +1,119 @@
+<div class="card-info ">
+  <div class="row justify-content-start m-0 pb-2 card-title g-2 d-flex flex-wrap flex-column">
+    <div class="card-title-events">
+      <span class="card-title-events-text">Devices Status Distribution</span>
+      <span class="card-title-events-icon">
+        <ng-container [ngTemplateOutlet]="iconArrowTop">
+        </ng-container>
+      </span>
+    </div>
+    <div class="info-light">
+      <ng-container [ngTemplateOutlet]="iconInfoLight">
+      </ng-container>
+    </div>
+  </div>
+
+  <div class="row justify-content-evenly m-0 g-2 card_body w-100">
+    <div class="col-md-3 col-sm-6 col-12 d-flex flex-wrap flex-column align-items-center">
+      <span class="total-info-icon">
+        <ng-container [ngTemplateOutlet]="iconSmartPhone">
+        </ng-container>
+      </span>
+    </div>
+    <div class="col-md-3 col-sm-6 col-12 d-flex flex-wrap flex-column align-items-center">
+      <span class="total-assigned-icon">
+        <ng-container [ngTemplateOutlet]="icon1">
+        </ng-container>
+      </span>
+      <div class="total-assigned-number">
+        <div class="total-number-assigned">
+          724
+        </div>
+      </div>
+      <span class="total-assigned-text">
+        Assigned
+      </span>
+    </div>
+    <div class="col-md-3 col-sm-6 col-12 d-flex flex-wrap flex-column align-items-center">
+      <span class="total-Idle-icon">
+        <ng-container [ngTemplateOutlet]="icon2">
+        </ng-container>
+      </span>
+      <div class="total-Idle-number">
+        <div class="total-number-Idle">
+          120
+        </div>
+      </div>
+      <span class="total-Idle-text">
+        Idle
+      </span>
+    </div>
+    <div class="col-md-3 col-sm-6 col-12 d-flex flex-wrap flex-column align-items-center">
+      <span class="total-others-icon">
+        <ng-container [ngTemplateOutlet]="icon3">
+        </ng-container>
+      </span>
+      <div class="total-others-number">
+        <div class="total-number-others">
+          80
+        </div>
+      </div>
+      <span class="total-others-text">
+        Others
+      </span>
+    </div>
+  </div>
+</div>
+
+
+<ng-template #iconArrowTop>
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="24" height="24" rx="6" fill="#37393D" />
+    <rect width="12" height="12" transform="matrix(1 1.74846e-07 1.74846e-07 -1 6 18)" fill="#37393D" />
+    <path
+      d="M12 16L11.5581 16.4419L12 16.8839L12.4419 16.4419L12 16ZM12.625 8.5C12.625 8.15482 12.3452 7.875 12 7.875C11.6548 7.875 11.375 8.15482 11.375 8.5L12.625 8.5ZM8.55806 13.4419L11.5581 16.4419L12.4419 15.5581L9.44194 12.5581L8.55806 13.4419ZM12.4419 16.4419L15.4419 13.4419L14.5581 12.5581L11.5581 15.5581L12.4419 16.4419ZM12.625 16L12.625 8.5L11.375 8.5L11.375 16L12.625 16Z"
+      fill="#F26666" />
+  </svg>
+</ng-template>
+
+<ng-template #iconInfoLight>
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="12" cy="12" r="9" stroke="#B2BAC9" />
+    <path
+      d="M12 8.1C12.3314 8.1 12.6 7.83137 12.6 7.5C12.6 7.16863 12.3314 6.9 12 6.9C11.6686 6.9 11.4 7.16863 11.4 7.5C11.4 7.83137 11.6686 8.1 12 8.1Z"
+      fill="#B2BAC9" stroke="#B2BAC9" stroke-width="0.2" />
+    <path d="M12 17L12 10" stroke="#B2BAC9" stroke-linecap="round" />
+  </svg>
+</ng-template>
+
+<ng-template #iconSmartPhone>
+  <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <rect width="52" height="52" fill="url(#pattern0_0_2812)" />
+    <defs>
+      <pattern id="pattern0_0_2812" patternContentUnits="objectBoundingBox" width="1" height="1">
+        <use xlink:href="#image0_0_2812" transform="scale(0.015625)" />
+      </pattern>
+      <image id="image0_0_2812" width="64" height="64"
+        xlink:href="data:image/png;base64,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" />
+    </defs>
+  </svg>
+</ng-template>
+
+<ng-template #icon1>
+  <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="6.5" cy="6.5" r="6.5" fill="#5A91DD" />
+  </svg>
+</ng-template>
+
+<ng-template #icon2>
+  <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="6.5" cy="6.5" r="6.5" fill="#66C088" />
+  </svg>
+</ng-template>
+
+<ng-template #icon3>
+  <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="6.5" cy="6.5" r="6.5" fill="#DA9D00" />
+  </svg>
+</ng-template>

@@ -1,0 +1,99 @@
+.card-info {
+  position: relative;
+  width: auto;
+  min-height: 324px;
+  border-radius: 12px;
+  box-shadow: 0px 12px 24px 0px #00000026;
+  background: var(--cardColor);
+}
+
+/* .w-item {
+  min-width: 107px;
+  width: 100%;
+} */
+
+.card-title-events {
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.card-title-events-text {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--whiteTitle);
+}
+
+.card-title-events-icon {
+  padding-left: 6px;
+}
+
+.card-title-area {
+  padding-left: 16px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--textColor);
+}
+
+.info-light {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 16px;
+  right: 22px;
+  border-radius: 8px;
+}
+
+.total-info-icon,
+.total-alerts-icon,
+.total-alarms-icon {
+  width: 67px;
+  height: 67px;
+  margin-bottom: 10px;
+}
+
+.total-info-number-value,
+.total-alerts-number-value,
+.total-alarms-number-value {
+  padding-right: 8px;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: var(--whiteTitle);
+}
+
+.total-info-number,
+.total-alerts-number,
+.total-alarms-number {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.total-info-text,
+.total-alerts-text,
+.total-alarms-text {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.015em;
+  align-self: start;
+  padding-left: 5px;
+  padding-top: 4px;
+  color: var(--textColor);
+}
+
+.total-number-percentage {
+  background-color: var(--contentColor);
+  color: var(--increaseColor);
+  min-height: 24px;
+  padding: 0px 3px 0px 2px;
+  border-radius: 4px;
+}

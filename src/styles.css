@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+  --Dashboard: #292929;
+  --textColor:#B2BAC9;
+  --contentColor: #37393D;
+  --cardColor:#323232;
+  --whiteTitle:#FFFFFF;
+  --Lightwhite : #D9D9D9;
+  --increaseColor:#66C088;
+  --colorZone:#313131;
+  --footerBorder:#525A6B;
+  --timeColor:#414858;
+
+}
+
+body {
+  background: var(--Dashboard) !important;
+}
+

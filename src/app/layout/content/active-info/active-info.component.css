@@ -1,0 +1,66 @@
+.card-background {
+  position: relative;
+  width: auto;
+  height: 392px;
+  background: url('../../../../assets/images/tasos-mansour.png') 0 0 no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: round;
+}
+
+.card-info {
+  border-radius: 12px;
+  box-shadow: 0px 12px 24px 0px #00000014;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-title {
+  width: 80%;
+  height: 75px;
+  padding-left: 27px;
+  padding-top: 35px;
+}
+
+.card-title-typography {
+  font-family: Arial;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 41.4px;
+  letter-spacing: -0.02em;
+  color: var(--whiteTitle);
+}
+
+.card-title-area {
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.6px;
+  letter-spacing: -0.02em;
+  color: var(--Lightwhite);
+}
+
+.card_body {
+  padding-left: 27px;
+  padding-top: 35px;
+}
+
+.active-people-number,
+.active-devices-number {
+  font-family: Arial;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 57.5px;
+  letter-spacing: -0.02em;
+  color: var(--whiteTitle);
+}
+
+.active-people-text,
+.active-devices-text {
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34.5px;
+  letter-spacing: -0.02em;
+  color: var(--Lightwhite);
+}

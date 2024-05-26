@@ -1,0 +1,110 @@
+.top-nav-bar {
+  height: 88px;
+  padding: 12px 40px 12px 40px;
+  border-radius: 12px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.right-icons {
+  flex-basis: content;
+}
+
+.search-bar,
+.right-icons {
+  height: 40px;
+}
+
+.document-icons {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.document-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 33px;
+}
+
+.document-status {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 16px;
+  right: 0px;
+}
+
+.eServices {
+  width: 112px;
+  height: 40px;
+  padding: 8px 12px 8px 12px;
+  text-align: center;
+  line-height: 1.2;
+  border-radius: 8px;
+  color: var(--textColor);
+  background-color: var(--contentColor);
+}
+
+.eServices-text {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+.icon-Modules {
+  padding-right: 4px;
+}
+
+.notification {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 8px;
+  line-height: 1;
+  background-color: var(--contentColor);
+}
+
+.search-bar {
+  border-radius: 8px;
+  background-color: var(--contentColor) !important;
+  direction: ltr;
+}
+
+.input-search {
+  width: 100%;
+  height: inherit;
+  box-sizing: border-box;
+  border: none;
+  background-image: url('../../../assets/images/Search_light.png');
+  background-position: 0px 8px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  background-color: inherit;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: var(--textColor);
+  outline: unset !important;
+}
+
+.top-nav-bar-title {
+  position: absolute;
+  top: 66px;
+  left: 134px;
+  color: var(--whiteTitle);
+  font-family: Arial;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 41.4px;
+  letter-spacing: -0.02em;
+}
